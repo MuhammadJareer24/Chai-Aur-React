@@ -2,11 +2,12 @@
 import Chai from "./Chai"
 
 function App() {
+  const msg = 'BEST hai'
 
   return (
     <>
    <Chai/>
-   <h1>chai aur react</h1>
+   <h1>chai aur react {msg}</h1>
    <p>test para</p>
     </>
   )
